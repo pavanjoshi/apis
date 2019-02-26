@@ -1,1 +1,16 @@
-
+{
+  "userToken": "C0pK7IHbe8ls53DjopIjiiNZTwisME",
+  "errorCode": "200",
+  "message": "Login Successful",
+  "authToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1MDEzMDAzMDk2Iiwic2NvcGVzIjoidXNlciIsImlhdCI6MTU1MTE3NTQ0MCwiZXhwIjoxNTUxMTkzNDQwfQ.eRVBCTKK-y0TlVPw-u_Lx09FhbzNNoXm7ZonS7O8pPY",
+  "keyValue": [
+    {
+      "name": "aws",
+      "value": "1"
+    },
+    {
+      "name": "azure",
+      "value": "2"
+    }
+  ]
+}
