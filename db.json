@@ -14,5 +14,71 @@
         "value": "2"
       }
     ]
+  },
+  "awsList": {
+    "userToken": "C0pK7IHbe8ls53DjopIjiiNZTwisME",
+    "errorCode": "200",
+    "message": "Login Successful",
+    "instanceList": {
+      "description": "You are assigned with the following instances",
+      "instanceInfo": [
+        {
+          "instanceId": "i-05feb5590ddf505c0",
+          "region": "ap-south-1",
+          "status": "YES",
+          "currentState": 16,
+          "instanceName": "MultiCloudServer",
+          "environment": "Production",
+          "instanceType": "t2.micro",
+          "dataMetric": [
+            {
+              "description": "CPUUtilization",
+              "average": 1,
+              "unit": "Percent",
+              "max": 2,
+              "min": 1,
+              "time": "Feb 26, 2019 9:54:00 AM",
+              "info": "The percentage of allocated EC2 compute units that are currently in use on the instance."
+            },
+            {
+              "description": "DiskReadOps",
+              "average": 0,
+              "unit": "Count",
+              "max": 0,
+              "min": 0,
+              "time": "Feb 26, 2019 9:54:00 AM",
+              "info": "The number of packets sent out on all network interfaces by the instance."
+            },
+            {
+              "description": "DiskWriteBytes",
+              "average": 0,
+              "unit": "Bytes",
+              "max": 0,
+              "min": 0,
+              "time": "Feb 26, 2019 9:54:00 AM",
+              "info": "Bytes written to all instance store volumes available to the instance."
+            },
+            {
+              "description": "NetworkPacketsIn",
+              "average": 382,
+              "unit": "Count",
+              "max": 663,
+              "min": 258,
+              "time": "Feb 26, 2019 9:54:00 AM",
+              "info": "The number of packets received on all network interfaces by the instance."
+            },
+            {
+              "description": "NetworkPacketsOut",
+              "average": 310,
+              "unit": "Count",
+              "max": 470,
+              "min": 245,
+              "time": "Feb 26, 2019 9:54:00 AM",
+              "info": "The number of packets sent out on all network interfaces by the instance."
+            }
+          ]
+        }
+      ]
+    }
   }
 }
